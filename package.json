@@ -1,0 +1,25 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "interview challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilmohmed/interview.git"
+  },
+  "author": "Sahil Mohmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilmohmed/interview/issues"
+  },
+  "homepage": "https://github.com/sahilmohmed/interview#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.32.0",
+    "allure-cypress": "^3.0.7",
+    "cypress": "^13.16.1",
+    "package.json": "^2.0.1"
+  }
+}
