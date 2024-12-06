@@ -4,10 +4,11 @@
 1. Cypress installed
 2. Allure installed
 3. JAVA_HOME set in system env (for Allure)
+4. clone this repo - [DocumentGPT repo](https://github.com/sahilmohmed/challenge.git) 
+  run docker compose up to start the DocumentGPT services
 
 ## How to run the tests
-1. clone this repo - 
-2. run docker compose up to start the DocumentGPT services
+
 3. clone this repo - 
 4. open terminal in the root of the repo cloned in step 3 
 
