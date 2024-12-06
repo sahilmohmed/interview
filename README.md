@@ -15,15 +15,23 @@
 1. in the terminal - run 'npx cypress open'
 2. select e2e
 3. select test specs to run
+![Alt text](readme_files/run_ui.png)
 
 ### Run in cmd
 1. in the terminal - run 'npx cypress run --browser chrome' this will run all the test specs
+![Alt text](readme_files/run_cmd.png)
+![Alt text](readme_files/run_cmd2.png)
+
+
 
 ### generating a report
-**EXAMPLE REPORT in the allure-report directory of this repo**
+[EXAMPLE REPORT](readme_files/index.html)
 1. in terminal - run 'allure generate --clean --single-file'
+![Alt text](readme_files/allure1.png)
 2. navigate to root/allure-report
 3. open the generated html file to view the report
+![Alt text](readme_files/allure2.png)
+
 
 
 ## To-do (not enough time)

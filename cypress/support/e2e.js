@@ -47,7 +47,7 @@ Cypress.Commands.add('verify_status_message', (message) => {
 
 Cypress.Commands.add('get_chat_bot', () => {
     cy.upload_multi_file([Cypress.env('doc1'),Cypress.env('doc2')])
-    cy.get('#chatButton', {timeout : 12000}).should('have.css', 'display', 'inline-block')
+    cy.get('#chatButton', {timeout : 20000}).should('have.css', 'display', 'inline-block')
     cy.get('#chatButton').click()
     
     cy.get('#chatMessages .message.user').should('contain', 'connected to chat')

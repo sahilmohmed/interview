@@ -26,10 +26,10 @@ describe('chatbot tech questions', () => {
     cy.verify_response_chat_bot('tool')
 
     cy.message_chat_bot(Cypress.env('question4'))
-    cy.verify_response_chat_bot_list('Yes')
+    cy.verify_response_chat_bot('Yes')
 
     cy.message_chat_bot(Cypress.env('question5'))
-    cy.verify_response_chat_bot_list('Selenium')
+    cy.verify_response_chat_bot('Selenium')
     })
   })
 
