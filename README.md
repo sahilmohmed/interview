@@ -26,7 +26,7 @@
 5. Ensure all Docker services are running `Docker ps -a`
    
 >[!IMPORTANT]
->OpenAI have recently removed the `proxies` argument in `Client.__init__` for the latest httpx. This will cause Docker compose to fail. To fix this, add the following to `requirements.txt` - `httpx==0.27.2`.
+>OpenAI have recently removed the `proxies` argument in `Client.__init__` for the latest httpx. This will cause file upload to fail! To fix this, add the following to `requirements.txt` - `httpx==0.27.2`.
 
 ### Setup
 1. Clone repo.
