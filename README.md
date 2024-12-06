@@ -25,7 +25,6 @@
 
 
 ### generating a report
-[EXAMPLE REPORT](readme_files/index.html)
 1. in terminal - run 'allure generate --clean --single-file'
 ![Alt text](readme_files/allure1.png)
 2. navigate to root/allure-report
